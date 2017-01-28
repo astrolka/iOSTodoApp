@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA883D11E3CE4890091C496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA883D01E3CE4890091C496 /* AppDelegate.swift */; };
+		FAA883D31E3CE4890091C496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA883D21E3CE4890091C496 /* ViewController.swift */; };
+		FAA883D61E3CE4890091C496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA883D41E3CE4890091C496 /* Main.storyboard */; };
+		FAA883D81E3CE4890091C496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA883D71E3CE4890091C496 /* Assets.xcassets */; };
+		FAA883DB1E3CE4890091C496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA883D91E3CE4890091C496 /* LaunchScreen.storyboard */; };
+		FAA883E61E3CE4890091C496 /* iOSTodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA883E51E3CE4890091C496 /* iOSTodoAppTests.swift */; };
+		FAA883F11E3CE4890091C496 /* iOSTodoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA883F01E3CE4890091C496 /* iOSTodoAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA883E21E3CE4890091C496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA883C51E3CE4890091C496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA883CC1E3CE4890091C496;
+			remoteInfo = iOSTodoApp;
+		};
+		FAA883ED1E3CE4890091C496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA883C51E3CE4890091C496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA883CC1E3CE4890091C496;
+			remoteInfo = iOSTodoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA883CD1E3CE4890091C496 /* iOSTodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA883D01E3CE4890091C496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA883D21E3CE4890091C496 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA883D51E3CE4890091C496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA883D71E3CE4890091C496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA883DA1E3CE4890091C496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA883DC1E3CE4890091C496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA883E11E3CE4890091C496 /* iOSTodoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTodoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA883E51E3CE4890091C496 /* iOSTodoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTodoAppTests.swift; sourceTree = "<group>"; };
+		FAA883E71E3CE4890091C496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA883EC1E3CE4890091C496 /* iOSTodoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTodoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA883F01E3CE4890091C496 /* iOSTodoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTodoAppUITests.swift; sourceTree = "<group>"; };
+		FAA883F21E3CE4890091C496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA883CA1E3CE4890091C496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA883DE1E3CE4890091C496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA883E91E3CE4890091C496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA883C41E3CE4890091C496 = {
+			isa = PBXGroup;
+			children = (
+				FAA883CF1E3CE4890091C496 /* iOSTodoApp */,
+				FAA883E41E3CE4890091C496 /* iOSTodoAppTests */,
+				FAA883EF1E3CE4890091C496 /* iOSTodoAppUITests */,
+				FAA883CE1E3CE4890091C496 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA883CE1E3CE4890091C496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA883CD1E3CE4890091C496 /* iOSTodoApp.app */,
+				FAA883E11E3CE4890091C496 /* iOSTodoAppTests.xctest */,
+				FAA883EC1E3CE4890091C496 /* iOSTodoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA883CF1E3CE4890091C496 /* iOSTodoApp */ = {
+			isa = PBXGroup;
+			children = (
+				FAA883D01E3CE4890091C496 /* AppDelegate.swift */,
+				FAA883D21E3CE4890091C496 /* ViewController.swift */,
+				FAA883D41E3CE4890091C496 /* Main.storyboard */,
+				FAA883D71E3CE4890091C496 /* Assets.xcassets */,
+				FAA883D91E3CE4890091C496 /* LaunchScreen.storyboard */,
+				FAA883DC1E3CE4890091C496 /* Info.plist */,
+			);
+			path = iOSTodoApp;
+			sourceTree = "<group>";
+		};
+		FAA883E41E3CE4890091C496 /* iOSTodoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA883E51E3CE4890091C496 /* iOSTodoAppTests.swift */,
+				FAA883E71E3CE4890091C496 /* Info.plist */,
+			);
+			path = iOSTodoAppTests;
+			sourceTree = "<group>";
+		};
+		FAA883EF1E3CE4890091C496 /* iOSTodoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA883F01E3CE4890091C496 /* iOSTodoAppUITests.swift */,
+				FAA883F21E3CE4890091C496 /* Info.plist */,
+			);
+			path = iOSTodoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA883CC1E3CE4890091C496 /* iOSTodoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA883F51E3CE4890091C496 /* Build configuration list for PBXNativeTarget "iOSTodoApp" */;
+			buildPhases = (
+				FAA883C91E3CE4890091C496 /* Sources */,
+				FAA883CA1E3CE4890091C496 /* Frameworks */,
+				FAA883CB1E3CE4890091C496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSTodoApp;
+			productName = iOSTodoApp;
+			productReference = FAA883CD1E3CE4890091C496 /* iOSTodoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA883E01E3CE4890091C496 /* iOSTodoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA883F81E3CE48A0091C496 /* Build configuration list for PBXNativeTarget "iOSTodoAppTests" */;
+			buildPhases = (
+				FAA883DD1E3CE4890091C496 /* Sources */,
+				FAA883DE1E3CE4890091C496 /* Frameworks */,
+				FAA883DF1E3CE4890091C496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA883E31E3CE4890091C496 /* PBXTargetDependency */,
+			);
+			name = iOSTodoAppTests;
+			productName = iOSTodoAppTests;
+			productReference = FAA883E11E3CE4890091C496 /* iOSTodoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA883EB1E3CE4890091C496 /* iOSTodoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA883FB1E3CE48A0091C496 /* Build configuration list for PBXNativeTarget "iOSTodoAppUITests" */;
+			buildPhases = (
+				FAA883E81E3CE4890091C496 /* Sources */,
+				FAA883E91E3CE4890091C496 /* Frameworks */,
+				FAA883EA1E3CE4890091C496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA883EE1E3CE4890091C496 /* PBXTargetDependency */,
+			);
+			name = iOSTodoAppUITests;
+			productName = iOSTodoAppUITests;
+			productReference = FAA883EC1E3CE4890091C496 /* iOSTodoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA883C51E3CE4890091C496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Александр Смоленский";
+				TargetAttributes = {
+					FAA883CC1E3CE4890091C496 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XC3Q2BB5B9;
+						ProvisioningStyle = Automatic;
+					};
+					FAA883E01E3CE4890091C496 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XC3Q2BB5B9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAA883CC1E3CE4890091C496;
+					};
+					FAA883EB1E3CE4890091C496 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XC3Q2BB5B9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAA883CC1E3CE4890091C496;
+					};
+				};
+			};
+			buildConfigurationList = FAA883C81E3CE4890091C496 /* Build configuration list for PBXProject "iOSTodoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA883C41E3CE4890091C496;
+			productRefGroup = FAA883CE1E3CE4890091C496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA883CC1E3CE4890091C496 /* iOSTodoApp */,
+				FAA883E01E3CE4890091C496 /* iOSTodoAppTests */,
+				FAA883EB1E3CE4890091C496 /* iOSTodoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA883CB1E3CE4890091C496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA883DB1E3CE4890091C496 /* LaunchScreen.storyboard in Resources */,
+				FAA883D81E3CE4890091C496 /* Assets.xcassets in Resources */,
+				FAA883D61E3CE4890091C496 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA883DF1E3CE4890091C496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA883EA1E3CE4890091C496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA883C91E3CE4890091C496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA883D31E3CE4890091C496 /* ViewController.swift in Sources */,
+				FAA883D11E3CE4890091C496 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA883DD1E3CE4890091C496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA883E61E3CE4890091C496 /* iOSTodoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA883E81E3CE4890091C496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA883F11E3CE4890091C496 /* iOSTodoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA883E31E3CE4890091C496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA883CC1E3CE4890091C496 /* iOSTodoApp */;
+			targetProxy = FAA883E21E3CE4890091C496 /* PBXContainerItemProxy */;
+		};
+		FAA883EE1E3CE4890091C496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA883CC1E3CE4890091C496 /* iOSTodoApp */;
+			targetProxy = FAA883ED1E3CE4890091C496 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA883D41E3CE4890091C496 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA883D51E3CE4890091C496 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA883D91E3CE4890091C496 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA883DA1E3CE4890091C496 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA883F31E3CE4890091C496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA883F41E3CE4890091C496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA883F61E3CE4890091C496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XC3Q2BB5B9;
+				INFOPLIST_FILE = iOSTodoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = astrolka.iOSTodoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAA883F71E3CE4890091C496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XC3Q2BB5B9;
+				INFOPLIST_FILE = iOSTodoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = astrolka.iOSTodoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FAA883F91E3CE48A0091C496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XC3Q2BB5B9;
+				INFOPLIST_FILE = iOSTodoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = astrolka.iOSTodoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTodoApp.app/iOSTodoApp";
+			};
+			name = Debug;
+		};
+		FAA883FA1E3CE48A0091C496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XC3Q2BB5B9;
+				INFOPLIST_FILE = iOSTodoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = astrolka.iOSTodoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTodoApp.app/iOSTodoApp";
+			};
+			name = Release;
+		};
+		FAA883FC1E3CE48A0091C496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XC3Q2BB5B9;
+				INFOPLIST_FILE = iOSTodoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = astrolka.iOSTodoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOSTodoApp;
+			};
+			name = Debug;
+		};
+		FAA883FD1E3CE48A0091C496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XC3Q2BB5B9;
+				INFOPLIST_FILE = iOSTodoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = astrolka.iOSTodoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOSTodoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA883C81E3CE4890091C496 /* Build configuration list for PBXProject "iOSTodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA883F31E3CE4890091C496 /* Debug */,
+				FAA883F41E3CE4890091C496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA883F51E3CE4890091C496 /* Build configuration list for PBXNativeTarget "iOSTodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA883F61E3CE4890091C496 /* Debug */,
+				FAA883F71E3CE4890091C496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA883F81E3CE48A0091C496 /* Build configuration list for PBXNativeTarget "iOSTodoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA883F91E3CE48A0091C496 /* Debug */,
+				FAA883FA1E3CE48A0091C496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA883FB1E3CE48A0091C496 /* Build configuration list for PBXNativeTarget "iOSTodoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA883FC1E3CE48A0091C496 /* Debug */,
+				FAA883FD1E3CE48A0091C496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA883C51E3CE4890091C496 /* Project object */;
+}

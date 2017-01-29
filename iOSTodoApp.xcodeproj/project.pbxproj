@@ -18,13 +18,13 @@
 		FAA883FF1E3CF5AD0091C496 /* AddTodoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA883FE1E3CF5AD0091C496 /* AddTodoController.swift */; };
 		FAA884051E3D12420091C496 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884041E3D12420091C496 /* Project.swift */; };
 		FAA884071E3D124D0091C496 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884061E3D124D0091C496 /* Todo.swift */; };
-		FAA884091E3D19690091C496 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884081E3D19690091C496 /* TodoCell.swift */; };
 		FAA884121E3D3BA60091C496 /* M13Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA884111E3D3BA60091C496 /* M13Checkbox.m */; };
 		FAA884501E3D69910091C496 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8844F1E3D69910091C496 /* Extentions.swift */; };
 		FAA884531E3D78AB0091C496 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884511E3D78AB0091C496 /* HeaderCell.swift */; };
 		FAA884541E3D78AB0091C496 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA884521E3D78AB0091C496 /* HeaderCell.xib */; };
 		FAA884561E3E12D40091C496 /* TodoTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884551E3E12D40091C496 /* TodoTextCell.swift */; };
 		FAA884581E3E17C50091C496 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884571E3E17C50091C496 /* Protocols.swift */; };
+		FAA884941E3E6C140091C496 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884931E3E6C140091C496 /* TodoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +64,6 @@
 		FAA883FE1E3CF5AD0091C496 /* AddTodoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTodoController.swift; sourceTree = "<group>"; };
 		FAA884041E3D12420091C496 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		FAA884061E3D124D0091C496 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
-		FAA884081E3D19690091C496 /* TodoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
 		FAA8840B1E3D1DD00091C496 /* iOSTodoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSTodoApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		FAA884101E3D3BA60091C496 /* M13Checkbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13Checkbox.h; sourceTree = "<group>"; };
 		FAA884111E3D3BA60091C496 /* M13Checkbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13Checkbox.m; sourceTree = "<group>"; };
@@ -73,6 +72,7 @@
 		FAA884521E3D78AB0091C496 /* HeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
 		FAA884551E3E12D40091C496 /* TodoTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTextCell.swift; sourceTree = "<group>"; };
 		FAA884571E3E17C50091C496 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		FAA884931E3E6C140091C496 /* TodoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,7 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				FAA883D41E3CE4890091C496 /* Main.storyboard */,
-				FAA884081E3D19690091C496 /* TodoCell.swift */,
+				FAA884931E3E6C140091C496 /* TodoCell.swift */,
 				FAA884551E3E12D40091C496 /* TodoTextCell.swift */,
 				FAA884511E3D78AB0091C496 /* HeaderCell.swift */,
 				FAA884521E3D78AB0091C496 /* HeaderCell.xib */,
@@ -406,13 +406,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA883D31E3CE4890091C496 /* TodosController.swift in Sources */,
-				FAA884091E3D19690091C496 /* TodoCell.swift in Sources */,
 				FAA883D11E3CE4890091C496 /* AppDelegate.swift in Sources */,
 				FAA884581E3E17C50091C496 /* Protocols.swift in Sources */,
 				FAA883FF1E3CF5AD0091C496 /* AddTodoController.swift in Sources */,
 				FAA884531E3D78AB0091C496 /* HeaderCell.swift in Sources */,
 				FAA884501E3D69910091C496 /* Extentions.swift in Sources */,
 				FAA884561E3E12D40091C496 /* TodoTextCell.swift in Sources */,
+				FAA884941E3E6C140091C496 /* TodoCell.swift in Sources */,
 				FAA884051E3D12420091C496 /* Project.swift in Sources */,
 				FAA884121E3D3BA60091C496 /* M13Checkbox.m in Sources */,
 				FAA884071E3D124D0091C496 /* Todo.swift in Sources */,

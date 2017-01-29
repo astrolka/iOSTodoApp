@@ -5,9 +5,10 @@
 //  Created by Александр Смоленский on 28.01.17.
 //  Copyright © 2017 Александр Смоленский. All rights reserved.
 //
+import M13Checkbox
 import UIKit
 
-class TodosController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class TodosController: UIViewController, UITableViewDataSource, UITableViewDelegate, TodoCellDelegate {
     
     var arrOfProjects = Array<Project>()
     @IBOutlet weak var tableView: UITableView!
@@ -48,6 +49,7 @@ class TodosController: UIViewController, UITableViewDataSource, UITableViewDeleg
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "TodoCell", for: indexPath) as! TodoCell
+        cell.delegate = self
         let todo = arrOfProjects[indexPath.section].todos[indexPath.row]
         cell.contentLabel.attributedText = todo.attributedText
         cell.checkbox.checkState = todo.isCompleted ? .checked : .unchecked
@@ -72,8 +74,23 @@ class TodosController: UIViewController, UITableViewDataSource, UITableViewDeleg
         return 50
     }
     
+    //MARK: - TodoCellDelegate
     
-    //FIX: - Server part
+    func checkboxValueChanged(cell: TodoCell, state: M13Checkbox.CheckState) {
+        let indexPath = tableView.indexPath(for: cell)
+        
+        //TODO: update model in ruby app
+        
+        let todo = arrOfProjects[indexPath!.section].todos[indexPath!.row]
+        todo.isCompleted = state == .checked ? true : false
+        
+        tableView.beginUpdates()
+        tableView.reloadRows(at: [indexPath!], with: UITableViewRowAnimation.fade)
+        tableView.endUpdates()
+    }
+    
+    
+    //TODO: - Server part
     
     func addProjects() {
         let todo1 = Todo(text: "Buy a new car", isCompleted: true)

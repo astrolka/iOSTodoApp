@@ -28,6 +28,7 @@ open class M13Checkbox: UIControl {
     - Checked: A checkmark is shown.
     - Mixed: A dash is shown.
     */
+    
     public enum CheckState: String, RawRepresentable {
         /// No check is shown.
         case unchecked = "Unchecked"

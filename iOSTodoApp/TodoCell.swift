@@ -10,6 +10,8 @@ import UIKit
 
 class TodoCell: UITableViewCell {
     
+    weak var delegate:TodoCellDelegate?
+    
     let contentLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 0
@@ -23,16 +25,14 @@ class TodoCell: UITableViewCell {
         checkbox.stateChangeAnimation = .bounce(.fill)
         checkbox.tintColor = UIColor(red: 66/255, green: 172/255, blue: 232/255, alpha: 1)
         checkbox.checkmarkLineWidth = 4
-        checkbox.addTarget(self, action: #selector(checkMarkAction(sender:)), for: .valueChanged)
         return checkbox
     }()
     
     override func awakeFromNib() {
         super.awakeFromNib()
         setSubviews()
-        
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
@@ -40,6 +40,7 @@ class TodoCell: UITableViewCell {
     func setSubviews() {
         addSubview(contentLabel)
         addSubview(checkbox)
+        checkbox.addTarget(self, action: #selector(checkMarkAction(_ :)), for: .valueChanged)
         
         let viewsDict = ["v1" : contentLabel, "v2" : checkbox]
         
@@ -53,9 +54,9 @@ class TodoCell: UITableViewCell {
     
     //MARK: - Actions
     
-    func checkMarkAction(sender: M13Checkbox) {
-        print("M13Checkbox pressed")
+    func checkMarkAction(_ sender: M13Checkbox) {
+        delegate?.checkboxValueChanged(cell: self, state: checkbox.checkState)
     }
     
-
+    
 }

@@ -3,7 +3,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'iOSTodoApp' do
-    pod 'M13Checkbox'    
+    pod 'M13Checkbox'
     pod 'Alamofire', '~> 4.3'
     pod 'SwiftyJSON'
 end

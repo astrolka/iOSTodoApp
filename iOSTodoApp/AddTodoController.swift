@@ -19,8 +19,9 @@ class AddTodoController: UIViewController, UITableViewDelegate, UITableViewDataS
         super.viewDidLoad()
         
         tableView.registerCellNib(name: "HeaderCell", identifier: "Header")
+        tableView.tableFooterView = UIView()
         navigationItem.titleView = UILabel.navigationView(title: "Новая задача")
-
+        
     }
     
     //MARK: - UITableViewDataSource

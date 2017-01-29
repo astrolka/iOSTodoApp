@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B695B040EBB5AD81B383E4D /* Pods_iOSTodoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16D8C49605DE803EFB795A8 /* Pods_iOSTodoApp.framework */; };
 		FAA883D11E3CE4890091C496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA883D01E3CE4890091C496 /* AppDelegate.swift */; };
-		FAA883D31E3CE4890091C496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA883D21E3CE4890091C496 /* ViewController.swift */; };
+		FAA883D31E3CE4890091C496 /* TodosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA883D21E3CE4890091C496 /* TodosController.swift */; };
 		FAA883D61E3CE4890091C496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA883D41E3CE4890091C496 /* Main.storyboard */; };
 		FAA883D81E3CE4890091C496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA883D71E3CE4890091C496 /* Assets.xcassets */; };
 		FAA883DB1E3CE4890091C496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA883D91E3CE4890091C496 /* LaunchScreen.storyboard */; };
 		FAA883E61E3CE4890091C496 /* iOSTodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA883E51E3CE4890091C496 /* iOSTodoAppTests.swift */; };
 		FAA883F11E3CE4890091C496 /* iOSTodoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA883F01E3CE4890091C496 /* iOSTodoAppUITests.swift */; };
+		FAA883FF1E3CF5AD0091C496 /* AddTodoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA883FE1E3CF5AD0091C496 /* AddTodoController.swift */; };
+		FAA884051E3D12420091C496 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884041E3D12420091C496 /* Project.swift */; };
+		FAA884071E3D124D0091C496 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884061E3D124D0091C496 /* Todo.swift */; };
+		FAA884091E3D19690091C496 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884081E3D19690091C496 /* TodoCell.swift */; };
+		FAA884121E3D3BA60091C496 /* M13Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA884111E3D3BA60091C496 /* M13Checkbox.m */; };
+		FAA884501E3D69910091C496 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8844F1E3D69910091C496 /* Extentions.swift */; };
+		FAA884531E3D78AB0091C496 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884511E3D78AB0091C496 /* HeaderCell.swift */; };
+		FAA884541E3D78AB0091C496 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA884521E3D78AB0091C496 /* HeaderCell.xib */; };
+		FAA884561E3E12D40091C496 /* TodoTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884551E3E12D40091C496 /* TodoTextCell.swift */; };
+		FAA884581E3E17C50091C496 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884571E3E17C50091C496 /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57F5560DBD96832996D9182A /* Pods-iOSTodoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTodoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTodoApp/Pods-iOSTodoApp.release.xcconfig"; sourceTree = "<group>"; };
+		B96DE3D1F50FEF12980011FC /* Pods-iOSTodoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTodoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTodoApp/Pods-iOSTodoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E16D8C49605DE803EFB795A8 /* Pods_iOSTodoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTodoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA883CD1E3CE4890091C496 /* iOSTodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA883D01E3CE4890091C496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAA883D21E3CE4890091C496 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA883D21E3CE4890091C496 /* TodosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosController.swift; sourceTree = "<group>"; };
 		FAA883D51E3CE4890091C496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAA883D71E3CE4890091C496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA883DA1E3CE4890091C496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,18 @@
 		FAA883EC1E3CE4890091C496 /* iOSTodoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTodoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA883F01E3CE4890091C496 /* iOSTodoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTodoAppUITests.swift; sourceTree = "<group>"; };
 		FAA883F21E3CE4890091C496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA883FE1E3CF5AD0091C496 /* AddTodoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTodoController.swift; sourceTree = "<group>"; };
+		FAA884041E3D12420091C496 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		FAA884061E3D124D0091C496 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		FAA884081E3D19690091C496 /* TodoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
+		FAA8840B1E3D1DD00091C496 /* iOSTodoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSTodoApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		FAA884101E3D3BA60091C496 /* M13Checkbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13Checkbox.h; sourceTree = "<group>"; };
+		FAA884111E3D3BA60091C496 /* M13Checkbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13Checkbox.m; sourceTree = "<group>"; };
+		FAA8844F1E3D69910091C496 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		FAA884511E3D78AB0091C496 /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		FAA884521E3D78AB0091C496 /* HeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		FAA884551E3E12D40091C496 /* TodoTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTextCell.swift; sourceTree = "<group>"; };
+		FAA884571E3E17C50091C496 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B695B040EBB5AD81B383E4D /* Pods_iOSTodoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +101,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9918F08D489866359EE58C6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B96DE3D1F50FEF12980011FC /* Pods-iOSTodoApp.debug.xcconfig */,
+				57F5560DBD96832996D9182A /* Pods-iOSTodoApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2592CC27818EC7A0586B3EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E16D8C49605DE803EFB795A8 /* Pods_iOSTodoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAA883C41E3CE4890091C496 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				FAA883E41E3CE4890091C496 /* iOSTodoAppTests */,
 				FAA883EF1E3CE4890091C496 /* iOSTodoAppUITests */,
 				FAA883CE1E3CE4890091C496 /* Products */,
+				9918F08D489866359EE58C6D /* Pods */,
+				B2592CC27818EC7A0586B3EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +144,10 @@
 			isa = PBXGroup;
 			children = (
 				FAA883D01E3CE4890091C496 /* AppDelegate.swift */,
-				FAA883D21E3CE4890091C496 /* ViewController.swift */,
-				FAA883D41E3CE4890091C496 /* Main.storyboard */,
+				FAA884031E3D12170091C496 /* Models */,
+				FAA884021E3D12020091C496 /* Controllers */,
+				FAA884011E3D11EF0091C496 /* Views */,
+				FAA8840A1E3D1DA00091C496 /* Util */,
 				FAA883D71E3CE4890091C496 /* Assets.xcassets */,
 				FAA883D91E3CE4890091C496 /* LaunchScreen.storyboard */,
 				FAA883DC1E3CE4890091C496 /* Info.plist */,
@@ -125,6 +173,48 @@
 			path = iOSTodoAppUITests;
 			sourceTree = "<group>";
 		};
+		FAA884011E3D11EF0091C496 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAA883D41E3CE4890091C496 /* Main.storyboard */,
+				FAA884081E3D19690091C496 /* TodoCell.swift */,
+				FAA884551E3E12D40091C496 /* TodoTextCell.swift */,
+				FAA884511E3D78AB0091C496 /* HeaderCell.swift */,
+				FAA884521E3D78AB0091C496 /* HeaderCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FAA884021E3D12020091C496 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAA883D21E3CE4890091C496 /* TodosController.swift */,
+				FAA883FE1E3CF5AD0091C496 /* AddTodoController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FAA884031E3D12170091C496 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAA884041E3D12420091C496 /* Project.swift */,
+				FAA884061E3D124D0091C496 /* Todo.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FAA8840A1E3D1DA00091C496 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FAA884101E3D3BA60091C496 /* M13Checkbox.h */,
+				FAA884111E3D3BA60091C496 /* M13Checkbox.m */,
+				FAA8840B1E3D1DD00091C496 /* iOSTodoApp-Bridging-Header.h */,
+				FAA8844F1E3D69910091C496 /* Extentions.swift */,
+				FAA884571E3E17C50091C496 /* Protocols.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAA883F51E3CE4890091C496 /* Build configuration list for PBXNativeTarget "iOSTodoApp" */;
 			buildPhases = (
+				4C01A4F090922D0A0522CED7 /* [CP] Check Pods Manifest.lock */,
 				FAA883C91E3CE4890091C496 /* Sources */,
 				FAA883CA1E3CE4890091C496 /* Frameworks */,
 				FAA883CB1E3CE4890091C496 /* Resources */,
+				AE05A8A127F92703F95D47DA /* [CP] Embed Pods Frameworks */,
+				F3AC7360E770A5E2F2C7E6A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +287,7 @@
 					FAA883CC1E3CE4890091C496 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = XC3Q2BB5B9;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					FAA883E01E3CE4890091C496 = {
@@ -235,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA884541E3D78AB0091C496 /* HeaderCell.xib in Resources */,
 				FAA883DB1E3CE4890091C496 /* LaunchScreen.storyboard in Resources */,
 				FAA883D81E3CE4890091C496 /* Assets.xcassets in Resources */,
 				FAA883D61E3CE4890091C496 /* Main.storyboard in Resources */,
@@ -257,13 +352,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C01A4F090922D0A0522CED7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE05A8A127F92703F95D47DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSTodoApp/Pods-iOSTodoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3AC7360E770A5E2F2C7E6A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSTodoApp/Pods-iOSTodoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAA883C91E3CE4890091C496 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA883D31E3CE4890091C496 /* ViewController.swift in Sources */,
+				FAA883D31E3CE4890091C496 /* TodosController.swift in Sources */,
+				FAA884091E3D19690091C496 /* TodoCell.swift in Sources */,
 				FAA883D11E3CE4890091C496 /* AppDelegate.swift in Sources */,
+				FAA884581E3E17C50091C496 /* Protocols.swift in Sources */,
+				FAA883FF1E3CF5AD0091C496 /* AddTodoController.swift in Sources */,
+				FAA884531E3D78AB0091C496 /* HeaderCell.swift in Sources */,
+				FAA884501E3D69910091C496 /* Extentions.swift in Sources */,
+				FAA884561E3E12D40091C496 /* TodoTextCell.swift in Sources */,
+				FAA884051E3D12420091C496 /* Project.swift in Sources */,
+				FAA884121E3D3BA60091C496 /* M13Checkbox.m in Sources */,
+				FAA884071E3D124D0091C496 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,27 +563,36 @@
 		};
 		FAA883F61E3CE4890091C496 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96DE3D1F50FEF12980011FC /* Pods-iOSTodoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = XC3Q2BB5B9;
 				INFOPLIST_FILE = iOSTodoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = astrolka.iOSTodoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSTodoApp/iOSTodoApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FAA883F71E3CE4890091C496 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F5560DBD96832996D9182A /* Pods-iOSTodoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = XC3Q2BB5B9;
 				INFOPLIST_FILE = iOSTodoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = astrolka.iOSTodoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSTodoApp/iOSTodoApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -512,6 +673,7 @@
 				FAA883F71E3CE4890091C496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA883F81E3CE48A0091C496 /* Build configuration list for PBXNativeTarget "iOSTodoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +682,7 @@
 				FAA883FA1E3CE48A0091C496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA883FB1E3CE48A0091C496 /* Build configuration list for PBXNativeTarget "iOSTodoAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +691,7 @@
 				FAA883FD1E3CE48A0091C496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -25,6 +25,9 @@
 		FAA884561E3E12D40091C496 /* TodoTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884551E3E12D40091C496 /* TodoTextCell.swift */; };
 		FAA884581E3E17C50091C496 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884571E3E17C50091C496 /* Protocols.swift */; };
 		FAA884941E3E6C140091C496 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA884931E3E6C140091C496 /* TodoCell.swift */; };
+		FAA884991E3F38560091C496 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA884961E3F38560091C496 /* OpenSans-Light.ttf */; };
+		FAA8849A1E3F38560091C496 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA884971E3F38560091C496 /* OpenSans-Regular.ttf */; };
+		FAA8849B1E3F38560091C496 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA884981E3F38560091C496 /* OpenSans-Semibold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,9 @@
 		FAA884551E3E12D40091C496 /* TodoTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTextCell.swift; sourceTree = "<group>"; };
 		FAA884571E3E17C50091C496 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		FAA884931E3E6C140091C496 /* TodoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
+		FAA884961E3F38560091C496 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		FAA884971E3F38560091C496 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		FAA884981E3F38560091C496 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,7 @@
 				FAA884021E3D12020091C496 /* Controllers */,
 				FAA884011E3D11EF0091C496 /* Views */,
 				FAA8840A1E3D1DA00091C496 /* Util */,
+				FAA884951E3F382A0091C496 /* Fonts */,
 				FAA883D71E3CE4890091C496 /* Assets.xcassets */,
 				FAA883D91E3CE4890091C496 /* LaunchScreen.storyboard */,
 				FAA883DC1E3CE4890091C496 /* Info.plist */,
@@ -213,6 +220,16 @@
 				FAA884571E3E17C50091C496 /* Protocols.swift */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		FAA884951E3F382A0091C496 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FAA884961E3F38560091C496 /* OpenSans-Light.ttf */,
+				FAA884971E3F38560091C496 /* OpenSans-Regular.ttf */,
+				FAA884981E3F38560091C496 /* OpenSans-Semibold.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +349,9 @@
 				FAA884541E3D78AB0091C496 /* HeaderCell.xib in Resources */,
 				FAA883DB1E3CE4890091C496 /* LaunchScreen.storyboard in Resources */,
 				FAA883D81E3CE4890091C496 /* Assets.xcassets in Resources */,
+				FAA884991E3F38560091C496 /* OpenSans-Light.ttf in Resources */,
+				FAA8849A1E3F38560091C496 /* OpenSans-Regular.ttf in Resources */,
+				FAA8849B1E3F38560091C496 /* OpenSans-Semibold.ttf in Resources */,
 				FAA883D61E3CE4890091C496 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

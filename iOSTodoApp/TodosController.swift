@@ -16,6 +16,7 @@ class TodosController: UIViewController, UITableViewDataSource, UITableViewDeleg
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         addProjects()
         
         navigationItem.titleView = UILabel.navigationView(title: "Задачи")
@@ -60,8 +61,10 @@ class TodosController: UIViewController, UITableViewDataSource, UITableViewDeleg
                 
         let cell = tableView.dequeueReusableCell(withIdentifier: "Header")
         cell?.textLabel?.text = arrOfProjects[section].title.uppercased()
+        let view = UIView(frame: (cell?.frame)!)
+        view.addSubview(cell!)
         
-        return cell
+        return view
     }
 
     //MARK: - UITableViewDelegate

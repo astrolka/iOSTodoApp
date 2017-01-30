@@ -18,6 +18,7 @@ class TodoTextCell: UITableViewCell, UITextFieldDelegate {
         textField.layer.borderWidth = 1
         textField.layer.borderColor = UIColor.lightGray.cgColor
         textField.layer.cornerRadius = 3
+        textField.font = UIFont(name: "OpenSans", size: 20)
         textField.layer.masksToBounds = true
     }
 

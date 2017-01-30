@@ -49,6 +49,7 @@ class AddTodoController: UIViewController, UITableViewDelegate, UITableViewDataS
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Project", for: indexPath)
         cell.textLabel?.text = arrOfProjects[indexPath.row].title
+        cell.textLabel?.font = UIFont(name: "OpenSans", size: 18)
         if checkedIndexPath == indexPath {
             cell.accessoryType = UITableViewCellAccessoryType.checkmark
         }

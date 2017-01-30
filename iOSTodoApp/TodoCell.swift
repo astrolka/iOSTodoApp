@@ -14,6 +14,7 @@ class TodoCell: UITableViewCell {
     
     let contentLabel: UILabel = {
         let label = UILabel()
+        label.font = UIFont(name: "OpenSans", size: 20)
         label.numberOfLines = 0
         return label
     }()

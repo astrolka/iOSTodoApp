@@ -12,7 +12,7 @@ class HeaderCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        
+        textLabel?.font = UIFont(name: "OpenSans-Semibold", size: 16)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

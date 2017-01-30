@@ -14,7 +14,7 @@ extension UILabel {
         
         let label = UILabel()
         label.text = title
-        label.font = UIFont(name: "AppleSDGothicNeo-Light", size: 24)
+        label.font = UIFont(name: "OpenSans-Light", size: 24)
         label.textColor = UIColor.white
         label.sizeToFit()
         

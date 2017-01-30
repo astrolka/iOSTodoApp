@@ -14,8 +14,7 @@ class Todo {
     var isCompleted = Bool()
     var attributedText: NSAttributedString {
         
-        let attr = [NSFontAttributeName : UIFont.systemFont(ofSize: 20)] as [String : Any]
-        let attStr = NSMutableAttributedString(string: text, attributes: attr)
+        let attStr = NSMutableAttributedString(string: text, attributes: nil)
         if isCompleted {
             attStr.addAttribute(NSStrikethroughStyleAttributeName, value: 1, range: NSMakeRange(0, attStr.length))
         }
